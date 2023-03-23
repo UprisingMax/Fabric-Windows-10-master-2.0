@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "tutorialmod",
+  "id": "projectx",
   "version": "${version}",
 
-  "name": "Tutorial Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "ProjectX",
+  "description": "This is my first mod! It aims to overhaul the progression system and add new features!",
   "authors": [
     "Max!"
   ],
@@ -19,14 +19,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.max.tutorialmod.TutorialMod"
+      "net.max.projectx.ProjectX"
     ],
     "client": [
-      "net.max.tutorialmod.TutorialModClient"
+      "net.max.projectx.ProjectXClient"
     ]
   },
   "mixins": [
-    "tutorialmod.mixins.json"
+    "projectx.mixins.json"
   ],
 
   "depends": {

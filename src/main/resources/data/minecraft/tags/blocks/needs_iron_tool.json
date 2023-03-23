@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values" : [
-    "tutorialmod:tanzanite_block",
-    "tutorialmod:tanzanite_ore",
-    "tutorialmod:deepslate_tanzanite_ore"
+    "projectx:tanzanite_block",
+    "projectx:tanzanite_ore",
+    "projectx:deepslate_tanzanite_ore"
   ]
 }

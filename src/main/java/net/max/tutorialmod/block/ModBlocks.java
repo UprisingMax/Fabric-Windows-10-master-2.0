@@ -1,12 +1,12 @@
-package net.max.tutorialmod.block;
+package net.max.projectx.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.max.tutorialmod.TutorialMod;
-import net.max.tutorialmod.block.custom.EggplantCropBlock;
-import net.max.tutorialmod.block.custom.JumpyBlock;
-import net.max.tutorialmod.block.custom.TanzaniteLampBlock;
-import net.max.tutorialmod.item.ModItemGroup;
+import net.max.projectx.ProjectX;
+import net.max.projectx.block.custom.EggplantCropBlock;
+import net.max.projectx.block.custom.JumpyBlock;
+import net.max.projectx.block.custom.TanzaniteLampBlock;
+import net.max.projectx.item.ModItemGroup;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.Material;
@@ -88,22 +88,22 @@ public class ModBlocks {
 
 
     private static Block registerBlockWithoutItem(String name, Block block) {
-        return Registry.register(Registry.BLOCK, new Identifier(TutorialMod.MOD_ID, name), block);
+        return Registry.register(Registry.BLOCK, new Identifier(ProjectX.MOD_ID, name), block);
     }
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
-        return Registry.register(Registry.BLOCK, new Identifier(TutorialMod.MOD_ID, name), block);
+        return Registry.register(Registry.BLOCK, new Identifier(ProjectX.MOD_ID, name), block);
     }
 
     private static Item registerBlockItem(String name, Block block, ItemGroup tab) {
-        return Registry.register(Registry.ITEM, new Identifier(TutorialMod.MOD_ID, name),
+        return Registry.register(Registry.ITEM, new Identifier(ProjectX.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings().group(tab)));
 
     }
 
 
     public static void registerModBlocks() {
-        TutorialMod.LOGGER.debug("Registering ModBlocks for " + TutorialMod.MOD_ID);
+        ProjectX.LOGGER.debug("Registering ModBlocks for " + ProjectX.MOD_ID);
     }
 }

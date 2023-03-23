@@ -1,10 +1,10 @@
-package net.max.tutorialmod.item;
+package net.max.projectx.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.max.tutorialmod.TutorialMod;
-import net.max.tutorialmod.block.ModBlocks;
-import net.max.tutorialmod.item.custom.EightBallItem;
-import net.max.tutorialmod.item.custom.ModHoeItem;
+import net.max.projectx.ProjectX;
+import net.max.projectx.block.ModBlocks;
+import net.max.projectx.item.custom.EightBallItem;
+import net.max.projectx.item.custom.ModHoeItem;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
@@ -116,10 +116,10 @@ public class ModItems {
                     new FabricItemSettings().maxCount(1).group(ModItemGroup.PROJECTX)));
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registry.ITEM, new Identifier(TutorialMod.MOD_ID, name), item);
+        return Registry.register(Registry.ITEM, new Identifier(ProjectX.MOD_ID, name), item);
     }
 
     public static void registerModItems() {
-        TutorialMod.LOGGER.debug("Registering Mod Items for " + TutorialMod.MOD_ID);
+        ProjectX.LOGGER.debug("Registering Mod Items for " + ProjectX.MOD_ID);
     }
 }

@@ -1,4 +1,4 @@
-package net.max.tutorialmod.item.custom;
+package net.max.projectx.item.custom;
 
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.item.TooltipContext;

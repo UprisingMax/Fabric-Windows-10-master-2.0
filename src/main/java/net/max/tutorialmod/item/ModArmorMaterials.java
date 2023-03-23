@@ -1,4 +1,4 @@
-package net.max.tutorialmod.item;
+package net.max.projectx.item;
 
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;

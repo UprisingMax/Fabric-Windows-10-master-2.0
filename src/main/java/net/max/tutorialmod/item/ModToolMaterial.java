@@ -1,4 +1,4 @@
-package net.max.tutorialmod.item;
+package net.max.projectx.item;
 
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;

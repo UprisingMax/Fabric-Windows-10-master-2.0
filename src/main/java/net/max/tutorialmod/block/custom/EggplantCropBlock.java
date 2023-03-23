@@ -1,6 +1,6 @@
-package net.max.tutorialmod.block.custom;
+package net.max.projectx.block.custom;
 
-import net.max.tutorialmod.item.ModItems;
+import net.max.projectx.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.CropBlock;

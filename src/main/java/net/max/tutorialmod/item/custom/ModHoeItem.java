@@ -1,4 +1,4 @@
-package net.max.tutorialmod.item.custom;
+package net.max.projectx.item.custom;
 
 import net.minecraft.item.HoeItem;
 import net.minecraft.item.ToolMaterial;

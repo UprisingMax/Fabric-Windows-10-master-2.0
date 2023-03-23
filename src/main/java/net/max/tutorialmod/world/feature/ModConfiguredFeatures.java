@@ -1,7 +1,7 @@
-package net.max.tutorialmod.world.feature;
+package net.max.projectx.world.feature;
 
-import net.max.tutorialmod.TutorialMod;
-import net.max.tutorialmod.block.ModBlocks;
+import net.max.projectx.ProjectX;
+import net.max.projectx.block.ModBlocks;
 import net.minecraft.util.registry.RegistryEntry;
 import net.minecraft.world.gen.feature.*;
 
@@ -38,6 +38,6 @@ public class ModConfiguredFeatures {
 
 
     public static void registerConfiguredFeatures() {
-        TutorialMod.LOGGER.debug("Registering the ModConfiguredFeatures " + TutorialMod.MOD_ID);
+        ProjectX.LOGGER.debug("Registering the ModConfiguredFeatures " + ProjectX.MOD_ID);
     }
 }

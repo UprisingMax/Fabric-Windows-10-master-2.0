@@ -1,4 +1,4 @@
-package net.max.tutorialmod.block.custom;
+package net.max.projectx.block.custom;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;

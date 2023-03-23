@@ -1,8 +1,8 @@
-package net.max.tutorialmod.world.gen;
+package net.max.projectx.world.gen;
 
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
-import net.max.tutorialmod.world.feature.ModPlacedFeatures;
+import net.max.projectx.world.feature.ModPlacedFeatures;
 import net.minecraft.world.gen.GenerationStep;
 
 public class ModOreGeneration {
