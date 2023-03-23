@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tutorialmod:adamantium_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "tutorialmod:adamantium_nugget"
+  }
+}

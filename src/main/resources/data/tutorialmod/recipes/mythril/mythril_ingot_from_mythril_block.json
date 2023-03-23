@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "tanzanite",
+  "ingredients": [
+    {
+      "item": "tutorialmod:mythril_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "tutorialmod:mythril_ingot"
+  }
+}

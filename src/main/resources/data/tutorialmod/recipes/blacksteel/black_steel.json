@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "tutorialmod:infuscolium_dust"
+    },
+    "X": {
+      "item": "tutorialmod:deep_iron_ingot"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "item": "tutorialmod:black_steel"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "tutorialmod:block/deep_iron_block" }
+  }
+}

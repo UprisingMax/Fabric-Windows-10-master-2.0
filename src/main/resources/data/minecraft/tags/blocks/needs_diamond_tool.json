@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values" : [
+    "tutorialmod:deepslate_adamantium_ore",
+    "tutorialmod:deepslate_deep_iron_ore",
+    "tutorialmod:deepslate_infuscolium_ore",
+    "tutorialmod:hellstone_ore",
+    "tutorialmod:deepslate_mythril_ore",
+    "tutorialmod:mythril_block",
+    "tutorialmod:hellstone_block",
+    "tutorialmod:deep_iron_block",
+    "tutorialmod:adamantium_block",
+    "tutorialmod:infuscolium_block"
+  ]
+}

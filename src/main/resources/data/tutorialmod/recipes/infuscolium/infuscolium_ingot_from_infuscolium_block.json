@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "tanzanite",
+  "ingredients": [
+    {
+      "item": "tutorialmod:infuscolium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "tutorialmod:infuscolium_ingot"
+  }
+}

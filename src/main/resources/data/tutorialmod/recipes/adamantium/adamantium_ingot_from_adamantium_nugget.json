@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tanzanite",
+  "key": {
+    "#": {
+      "item": "tutorialmod:adamantium_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "tutorialmod:adamantium_ingot"
+  }
+}
