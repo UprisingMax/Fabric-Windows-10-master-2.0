@@ -22,9 +22,9 @@ public class ModPlacedFeatures {
             ModConfiguredFeatures.DEEP_IRON_ORE, modifiersWithCount(5,
                     HeightRangePlacementModifier.trapezoid(YOffset.fixed(-80), YOffset.fixed(-32))));
 
-    public static final RegistryEntry<PlacedFeature> INFUSCOLIUM_ORE_PLACED = PlacedFeatures.register("infuscolium_ore_placed",
-            ModConfiguredFeatures.INFUSCOLIUM_ORE, modifiersWithCount(3,
-                    HeightRangePlacementModifier.trapezoid(YOffset.fixed(-80), YOffset.fixed(-32))));
+    public static final RegistryEntry<PlacedFeature> END_INFUSCOLIUM_ORE_PLACED = PlacedFeatures.register("end_infuscolium_ore_placed",
+            ModConfiguredFeatures.END_INFUSCOLIUM_ORE, modifiersWithCount(8,
+                    HeightRangePlacementModifier.trapezoid(YOffset.fixed(10), YOffset.fixed(50))));
 
     public static final RegistryEntry<PlacedFeature> HELLSTONE_ORE_PLACED = PlacedFeatures.register("hellstone_ore_placed",
             ModConfiguredFeatures.HELLSTONE_ORE, modifiersWithCount(4,

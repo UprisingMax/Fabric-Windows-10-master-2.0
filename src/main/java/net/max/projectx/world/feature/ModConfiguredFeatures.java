@@ -2,6 +2,8 @@ package net.max.projectx.world.feature;
 
 import net.max.projectx.ProjectX;
 import net.max.projectx.block.ModBlocks;
+import net.minecraft.block.Blocks;
+import net.minecraft.structure.rule.BlockMatchRuleTest;
 import net.minecraft.util.registry.RegistryEntry;
 import net.minecraft.world.gen.feature.*;
 
@@ -25,11 +27,10 @@ public class ModConfiguredFeatures {
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> DEEP_IRON_ORE =
             ConfiguredFeatures.register("deep_iron_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_DEEP_IRON_ORES, 9));
 
-
-    public static final List<OreFeatureConfig.Target> OVERWORLD_INFUSCOLIUM_ORES = List.of(
-            OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_INFUSCOLIUM_ORE.getDefaultState()));
-    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> INFUSCOLIUM_ORE =
-            ConfiguredFeatures.register("infuscolium_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_INFUSCOLIUM_ORES, 4));
+    public static final List<OreFeatureConfig.Target> END_INFUSCOLIUM_ORES = List.of(
+            OreFeatureConfig.createTarget(new BlockMatchRuleTest(Blocks.END_STONE), ModBlocks.END_STONE_INFUSCOLIUM_ORE.getDefaultState()));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> END_INFUSCOLIUM_ORE =
+            ConfiguredFeatures.register("infuscolium_ore", Feature.ORE, new OreFeatureConfig(END_INFUSCOLIUM_ORES, 6));
 
     public static final List<OreFeatureConfig.Target> NETHER_HELLSTONE_ORES = List.of(
             OreFeatureConfig.createTarget(OreConfiguredFeatures.NETHERRACK, ModBlocks.HELLSTONE_ORE.getDefaultState()));

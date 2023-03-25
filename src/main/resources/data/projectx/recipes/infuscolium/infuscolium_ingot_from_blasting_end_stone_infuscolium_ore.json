@@ -4,7 +4,7 @@
   "experience": 1.0,
   "group": "tanzanite",
   "ingredient": {
-    "item": "projectx:deepslate_infuscolium_ore"
+    "item": "projectx:end_stone_infuscolium_ore"
   },
   "result": "projectx:infuscolium_ingot"
 }

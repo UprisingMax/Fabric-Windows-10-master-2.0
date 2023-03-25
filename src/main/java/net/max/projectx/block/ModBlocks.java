@@ -61,8 +61,8 @@ public class ModBlocks {
             new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE),
                     UniformIntProvider.create(3, 7)), ModItemGroup.PROJECTX);
 
-    public static final Block DEEPSLATE_INFUSCOLIUM_ORE = registerBlock("deepslate_infuscolium_ore",
-            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE),
+    public static final Block END_STONE_INFUSCOLIUM_ORE = registerBlock("end_stone_infuscolium_ore",
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool().sounds(BlockSoundGroup.STONE),
                     UniformIntProvider.create(3, 7)), ModItemGroup.PROJECTX);
 
     public static final Block HELLSTONE_ORE = registerBlock("hellstone_ore",

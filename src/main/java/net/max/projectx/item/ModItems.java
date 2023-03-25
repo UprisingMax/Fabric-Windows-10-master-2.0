@@ -115,7 +115,30 @@ public class ModItems {
             new ModHoeItem(ModToolMaterial.BLACK_STEEL, 1, 0f,
                     new FabricItemSettings().maxCount(1).group(ModItemGroup.PROJECTX)));
 
+    public static final Item COPPER_SWORD = registerItem("copper_sword",
+            new SwordItem(ModToolMaterial.COPPER, 5, -2.4f,
+                    new FabricItemSettings().maxCount(1).group(ModItemGroup.PROJECTX)));
+
+    public static final Item COPPER_PICKAXE = registerItem("copper_pickaxe",
+            new PickaxeItem(ModToolMaterial.COPPER, 3, -2.8f,
+                    new FabricItemSettings().maxCount(1).group(ModItemGroup.PROJECTX)));
+
+    public static final Item COPPER_AXE = registerItem("copper_axe",
+            new AxeItem(ModToolMaterial.COPPER, 8, -3f,
+                    new FabricItemSettings().maxCount(1).group(ModItemGroup.PROJECTX)));
+
+    public static final Item COPPER_SHOVEL = registerItem("copper_shovel",
+            new ShovelItem(ModToolMaterial.COPPER, 3.5f, -3f,
+                    new FabricItemSettings().maxCount(1).group(ModItemGroup.PROJECTX)));
+
+    public static final Item COPPER_HOE = registerItem("copper_hoe",
+            new ModHoeItem(ModToolMaterial.COPPER, 0, 0f,
+                    new FabricItemSettings().maxCount(1).group(ModItemGroup.PROJECTX)));
+
     public static final Item PLANT_FIBER = registerItem("plant_fiber",
+            new Item(new FabricItemSettings().group(ModItemGroup.PROJECTX)));
+
+    public static final Item TWINE_BUNDLE = registerItem("twine_bundle",
             new Item(new FabricItemSettings().group(ModItemGroup.PROJECTX)));
 
     public static final Item VANILLA_ICECREAMCONE = registerItem("vanilla_icecreamcone",

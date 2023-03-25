@@ -16,8 +16,8 @@ public class ModOreGeneration {
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
                 GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.DEEP_IRON_ORE_PLACED.getKey().get());
 
-        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
-                GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.INFUSCOLIUM_ORE_PLACED.getKey().get());
+        BiomeModifications.addFeature(BiomeSelectors.foundInTheEnd(),
+                GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.END_INFUSCOLIUM_ORE_PLACED.getKey().get());
 
         BiomeModifications.addFeature(BiomeSelectors.foundInTheNether(),
                 GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.HELLSTONE_ORE_PLACED.getKey().get());

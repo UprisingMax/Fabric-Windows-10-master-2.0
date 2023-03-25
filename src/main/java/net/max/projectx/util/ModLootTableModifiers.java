@@ -34,7 +34,7 @@ public class ModLootTableModifiers {
             if(GRASS_BLOCK_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.15f)) // Drops 15% of the time
+                        .conditionally(RandomChanceLootCondition.builder(0.25f)) // Drops 25% of the time
                         .with(ItemEntry.builder(ModItems.PLANT_FIBER))
                         .conditionally(MatchToolLootCondition.builder(ItemPredicate.Builder.create()
                                         .items(ModItems.FLINT_KNIFE)).build())
@@ -45,7 +45,7 @@ public class ModLootTableModifiers {
             if(FERN_BLOCK_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.15f)) // Drops 15% of the time
+                        .conditionally(RandomChanceLootCondition.builder(0.25f)) // Drops 25% of the time
                         .with(ItemEntry.builder(ModItems.PLANT_FIBER))
                         .conditionally(MatchToolLootCondition.builder(ItemPredicate.Builder.create()
                                 .items(ModItems.FLINT_KNIFE)).build())
@@ -56,7 +56,7 @@ public class ModLootTableModifiers {
             if(LARGE_FERN_BLOCK_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.15f)) // Drops 15% of the time
+                        .conditionally(RandomChanceLootCondition.builder(0.25f)) // Drops 25% of the time
                         .with(ItemEntry.builder(ModItems.PLANT_FIBER))
                         .conditionally(MatchToolLootCondition.builder(ItemPredicate.Builder.create()
                                 .items(ModItems.FLINT_KNIFE)).build())
@@ -66,7 +66,7 @@ public class ModLootTableModifiers {
             if(FERN_BLOCK_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.15f)) // Drops 15% of the time
+                        .conditionally(RandomChanceLootCondition.builder(0.25f)) // Drops 25% of the time
                         .with(ItemEntry.builder(ModItems.PLANT_FIBER))
                         .conditionally(MatchToolLootCondition.builder(ItemPredicate.Builder.create()
                                 .items(ModItems.FLINT_KNIFE)).build())
