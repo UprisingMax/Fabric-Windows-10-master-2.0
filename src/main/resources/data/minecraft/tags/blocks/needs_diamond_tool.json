@@ -1,15 +1,5 @@
 {
   "replace": false,
   "values" : [
-    "projectx:deepslate_adamantium_ore",
-    "projectx:deepslate_deep_iron_ore",
-    "projectx:deepslate_infuscolium_ore",
-    "projectx:hellstone_ore",
-    "projectx:deepslate_mythril_ore",
-    "projectx:mythril_block",
-    "projectx:hellstone_block",
-    "projectx:deep_iron_block",
-    "projectx:adamantium_block",
-    "projectx:infuscolium_block"
   ]
 }

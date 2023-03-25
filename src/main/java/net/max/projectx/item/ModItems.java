@@ -40,7 +40,7 @@ public class ModItems {
     public static final Item INFUSCOLIUM_INGOT = registerItem("infuscolium_ingot",
             new Item(new FabricItemSettings().group(ModItemGroup.PROJECTX)));
 
-    public static final Item BLACK_STEEL = registerItem("black_steel",
+    public static final Item BLACK_STEEL_INGOT = registerItem("black_steel_ingot",
             new Item(new FabricItemSettings().group(ModItemGroup.PROJECTX)));
 
     public static final Item HELLSTONE_INGOT = registerItem("hellstone_ingot",
@@ -113,6 +113,21 @@ public class ModItems {
 
     public static final Item BLACK_STEEL_HOE = registerItem("black_steel_hoe",
             new ModHoeItem(ModToolMaterial.BLACK_STEEL, 1, 0f,
+                    new FabricItemSettings().maxCount(1).group(ModItemGroup.PROJECTX)));
+
+    public static final Item PLANT_FIBER = registerItem("plant_fiber",
+            new Item(new FabricItemSettings().group(ModItemGroup.PROJECTX)));
+
+    public static final Item VANILLA_ICECREAMCONE = registerItem("vanilla_icecreamcone",
+            new Item(new FabricItemSettings().group(ModItemGroup.PROJECTX)
+                    .food(new FoodComponent.Builder().hunger(4).saturationModifier(4f).build())));
+
+    public static final Item CHOCOLATE_ICECREAMCONE = registerItem("chocolate_icecreamcone",
+            new Item(new FabricItemSettings().group(ModItemGroup.PROJECTX)
+                    .food(new FoodComponent.Builder().hunger(4).saturationModifier(4f).build())));
+
+    public static final Item FLINT_KNIFE = registerItem("flint_knife",
+            new SwordItem(ModToolMaterial.FLINT, 1, -2.4f,
                     new FabricItemSettings().maxCount(1).group(ModItemGroup.PROJECTX)));
 
     private static Item registerItem(String name, Item item) {

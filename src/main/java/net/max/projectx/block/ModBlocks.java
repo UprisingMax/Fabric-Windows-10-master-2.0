@@ -50,23 +50,23 @@ public class ModBlocks {
             new EggplantCropBlock(FabricBlockSettings.copy(Blocks.WHEAT)));
 
     public static final Block DEEPSLATE_ADAMANTIUM_ORE = registerBlock("deepslate_adamantium_ore",
-            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(),
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE),
                     UniformIntProvider.create(3, 7)), ModItemGroup.PROJECTX);
 
     public static final Block DEEPSLATE_MYTHRIL_ORE = registerBlock("deepslate_mythril_ore",
-            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(),
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE),
                     UniformIntProvider.create(3, 7)), ModItemGroup.PROJECTX);
 
     public static final Block DEEPSLATE_DEEP_IRON_ORE = registerBlock("deepslate_deep_iron_ore",
-            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(),
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE),
                     UniformIntProvider.create(3, 7)), ModItemGroup.PROJECTX);
 
     public static final Block DEEPSLATE_INFUSCOLIUM_ORE = registerBlock("deepslate_infuscolium_ore",
-            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(),
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE),
                     UniformIntProvider.create(3, 7)), ModItemGroup.PROJECTX);
 
     public static final Block HELLSTONE_ORE = registerBlock("hellstone_ore",
-            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(),
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool().sounds(BlockSoundGroup.NETHERRACK),
                     UniformIntProvider.create(3, 7)), ModItemGroup.PROJECTX);
 
     public static final Block ADAMANTIUM_BLOCK = registerBlock("adamantium_block",
@@ -82,6 +82,9 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroup.PROJECTX);
 
     public static final Block HELLSTONE_BLOCK = registerBlock("hellstone_block",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroup.PROJECTX);
+
+    public static final Block BLACK_STEEL_BLOCK = registerBlock("black_steel_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroup.PROJECTX);
 
 

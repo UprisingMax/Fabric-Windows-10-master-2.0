@@ -1,13 +1,19 @@
 package net.max.projectx.item;
 
+import net.minecraft.item.ItemConvertible;
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
+import net.minecraft.tag.ItemTags;
 
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
+    FLINT(0, 30, 2.0F, 0.0F, 15,
+            () -> Ingredient.ofItems(new ItemConvertible[]{Items.FLINT})),
+
     BLACK_STEEL(5, 2500, 16.0F, 0F, 20,
-            () -> Ingredient.ofItems(ModItems.BLACK_STEEL));
+            () -> Ingredient.ofItems(ModItems.BLACK_STEEL_INGOT));
 
     private final int miningLevel;
     private final int itemDurability;

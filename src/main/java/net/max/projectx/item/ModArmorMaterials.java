@@ -11,9 +11,9 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
 
-                BLACK_STEEL("black_steel", 40, new int[]{4, 7, 9, 4}, 15,
-                        SoundEvents.ITEM_ARMOR_EQUIP_IRON, 5.0f, 1.0f,
-                        () -> Ingredient.ofItems(ModItems.BLACK_STEEL));
+                BLACK_STEEL("black_steel", 40, new int[]{5, 8, 10, 5}, 15,
+                        SoundEvents.ITEM_ARMOR_EQUIP_IRON, 5.0f, 0.3f,
+                        () -> Ingredient.ofItems(ModItems.BLACK_STEEL_INGOT));
 
         private static final int[] BASE_DURABILITY;
         private final String name;
