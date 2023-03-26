@@ -8,6 +8,9 @@ import net.minecraft.network.PacketByteBuf;
 import net.minecraft.server.network.ServerPlayerEntity;
 
 public class ThirstData {
+
+
+
     public static int addThirst(IEntityDataSaver player, int amount) {
         NbtCompound nbt = player.getPersistentData();
         int thirst = nbt.getInt("thirst");
