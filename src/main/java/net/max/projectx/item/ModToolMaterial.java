@@ -12,11 +12,12 @@ public enum ModToolMaterial implements ToolMaterial {
     FLINT(-1, 30, 2.0F, 0.0F, 15,
             () -> Ingredient.ofItems(new ItemConvertible[]{Items.FLINT})),
 
-    COPPER(0, 80, 3.0F, 0.0F, 15,
+    COPPER(1, 180, 5.0F, 0.0F, 15,
             () -> Ingredient.ofItems(new ItemConvertible[]{Items.COPPER_INGOT})),
 
     BLACK_STEEL(5, 2500, 16.0F, 0F, 20,
             () -> Ingredient.ofItems(ModItems.BLACK_STEEL_INGOT));
+
 
     private final int miningLevel;
     private final int itemDurability;

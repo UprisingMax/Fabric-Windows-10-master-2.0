@@ -63,5 +63,11 @@
   "block.projectx.adamantium_block": "Block of Adamantium",
 
   "itemGroup.projectx.tanzanite": "Tanzanite Tutorial Tab",
-  "itemGroup.projectx.projectx": "ProjectX Tab"
+  "itemGroup.projectx.projectx": "ProjectX Tab",
+
+  "key.category.projectx.tutorial": "ProjectX",
+  "key.projectx.drink_water": "Drink Water Key",
+
+  "message.projectx.drank_water": "Slurp!",
+  "message.projectx.no_water": "No Water around!"
 }
