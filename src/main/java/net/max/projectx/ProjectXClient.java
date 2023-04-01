@@ -6,7 +6,6 @@ import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.max.projectx.block.ModBlocks;
 import net.max.projectx.client.ThirstHudOverlay;
-import net.max.projectx.event.AxeRequirementHandler;
 import net.max.projectx.event.KeyInputHandler;
 import net.max.projectx.networking.ModMessages;
 import net.minecraft.client.render.RenderLayer;
