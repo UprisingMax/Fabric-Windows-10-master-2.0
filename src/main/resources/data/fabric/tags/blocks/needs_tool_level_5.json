@@ -6,6 +6,7 @@
     "projectx:deepslate_mythril_ore",
     "projectx:mythril_block",
     "projectx:hellstone_block",
-    "projectx:adamantium_block"
+    "projectx:adamantium_block",
+    "minecraft:stone"
   ]
 }

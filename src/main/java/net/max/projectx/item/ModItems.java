@@ -153,6 +153,10 @@ public class ModItems {
             new SwordItem(ModToolMaterial.FLINT, 1, -2.4f,
                     new FabricItemSettings().maxCount(1).group(ModItemGroup.PROJECTX)));
 
+    public static final Item FLINT_AXE = registerItem("flint_axe",
+            new AxeItem(ModToolMaterial.FLINT, 1, -2.4f,
+                    new FabricItemSettings().maxCount(1).group(ModItemGroup.PROJECTX)));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(ProjectX.MOD_ID, name), item);
     }

@@ -6,10 +6,12 @@ import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.tag.ItemTags;
 
+
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    FLINT(-1, 30, 2.0F, 0.0F, 15,
+
+    FLINT(6, 30, 2.0F, 0.0F, 15,
             () -> Ingredient.ofItems(new ItemConvertible[]{Items.FLINT})),
 
     COPPER(1, 180, 5.0F, 0.0F, 15,

@@ -2,6 +2,8 @@ package net.max.projectx.util;
 
 import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
 import net.max.projectx.item.ModItems;
+import net.minecraft.item.Item;
+import net.minecraft.item.Items;
 import net.minecraft.loot.LootPool;
 import net.minecraft.loot.condition.MatchToolLootCondition;
 import net.minecraft.loot.condition.RandomChanceLootCondition;
@@ -26,7 +28,6 @@ public class ModLootTableModifiers {
             = new Identifier("minecraft", "chests/igloo_chest");
     private static final Identifier CREEPER_ID
             = new Identifier("minecraft", "entities/creeper");
-
 
     public static void modifyLootTables() {
         LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {
