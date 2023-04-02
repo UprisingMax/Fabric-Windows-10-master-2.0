@@ -17,17 +17,18 @@ public class AxeRequirementHandler implements PlayerBlockBreakEvents.Before {
     @Override
     public boolean beforeBlockBreak(World world, PlayerEntity player, BlockPos pos, BlockState state, BlockEntity blockEntity) {
         Item heldItem = player.getMainHandStack().getItem();
-        if (state.getMaterial() == Material.WOOD && !world.isClient && heldItem instanceof AxeItem) {
+        if(player.isCreative()) {
+            return true;
+        }
+        if (state.getMaterial() == Material.WOOD && !(heldItem instanceof AxeItem)) {
+            player.sendMessage(Text.literal(player.getName().getString() + " cannot break this block with this tool!"));
+            return false;
+        } else if (state.getMaterial() == Material.WOOD && heldItem instanceof AxeItem) {
             player.sendMessage(Text.literal(player.getName().getString() + " broke wooden block with an axe!"));
             // Allow the block break event to continue
             return true;
         }
-        // Allow the block break event to continue if not wood
-        else if (state.getMaterial() != Material.WOOD && !world.isClient) {
-            return true;
-        }
-        // Cancel the block break event
-        player.sendMessage(Text.literal(player.getName().getString() + " cannot break this block! "));
-        return false;
+        // True for all other blocks
+        return true;
     }
 }
